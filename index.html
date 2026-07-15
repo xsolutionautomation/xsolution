@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>X-Solution Automation — Mô hình đồ án tự động hóa</title>
+<meta name="description" content="X-Solution Automation — Portfolio các mô hình đồ án khóa luận về robot, tự động hóa và điều khiển.">
+<link rel="icon" href="assets/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">
+      <img src="assets/logo.jpg" alt="X-Solution Automation" class="brand-mark">
+      <span class="brand-text">X-SOLUTION<span class="brand-sub">AUTOMATION</span></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#expertise">Lĩnh vực hoạt động</a>
+      <a href="#projects">Dự án</a>
+      <a href="#policy">Chính sách</a>
+      <a href="#contact">Liên hệ</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Mở menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="hero-grid" aria-hidden="true"></div>
+  <svg class="hero-wave" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,100 C 60,20 120,180 180,100 C 240,20 300,180 360,100 C 420,20 480,180 540,100 C 600,20 660,180 720,100 C 780,20 840,180 900,100 C 960,20 1020,180 1080,100 C 1110,60 1140,140 1200,100" fill="none" stroke="url(#waveGrad)" stroke-width="2"/>
+    <defs>
+      <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#2F6FF2" stop-opacity="0"/>
+        <stop offset="50%" stop-color="#5B9BFF" stop-opacity="0.6"/>
+        <stop offset="100%" stop-color="#2F6FF2" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <div class="hero-inner">
+    <h1 class="hero-title">
+      X-SOLUTION<br><span class="outline">AUTOMATION</span>
+    </h1>
+    <p class="hero-tagline">X-Solution Automation là một nhóm chuyên môn cao trong lĩnh vực kỹ thuật, chuyên cung cấp dịch vụ tư vấn, thiết kế và hỗ trợ thực hiện các đồ án tốt nghiệp, dự án nghiên cứu cũng như các giải pháp công nghệ thực tế. Với định hướng kết hợp chặt chẽ giữa lý thuyết học thuật và ứng dụng công nghiệp, nhóm là bệ đỡ vững chắc cho các bạn sinh viên ngành Kỹ thuật điều khiển, Tự động hóa, Điện - Điện tử và Cơ điện tử.</p>
+  </div>
+</section>
+
+<!-- ===== EXPERTISE ===== -->
+<section class="section" id="expertise" style="padding:0 0 60px;">
+  <div class="section-inner">
+    <p class="eyebrow"><span class="dot"></span> LĨNH VỰC HOẠT ĐỘNG</p>
+
+    <div class="chip-grid">
+      <span class="chip">Code PLC</span>
+      <span class="chip">Nhúng (Embedded)</span>
+      <span class="chip">IoT</span>
+      <span class="chip">Xử lý ảnh</span>
+      <span class="chip">SCADA</span>
+      <span class="chip">Bài tập lớn / Đồ án</span>
+      <span class="chip">Thiết kế PCB</span>
+      <span class="chip">Fix mô hình</span>
+    </div>
+
+    <div class="expertise-detail" id="expertiseDetail">
+      <div class="expertise-col">
+        <p class="expertise-col-title">Dòng thiết bị &amp; nền tảng</p>
+        <ul>
+          <li><strong>PLC:</strong> S7-1200, FX3U, Xinje, Delta, Omron</li>
+          <li><strong>Vi điều khiển:</strong> ESP32, STM32, Arduino</li>
+          <li><strong>IoT:</strong> Ethernet, LoRa</li>
+          <li><strong>Mô phỏng:</strong> MATLAB/Simulink (PID, ANN, Neural Network)</li>
+        </ul>
+      </div>
+      <div class="expertise-col">
+        <p class="expertise-col-title">Ứng dụng cụ thể</p>
+        <ul>
+          <li>Phân loại sản phẩm: màu, hình, cân nặng, chiều cao, QR-code, mã vạch</li>
+          <li>Hệ thống chiết rót, đóng nắp — lưu kho</li>
+          <li>Điều khiển PID: mực nước, nhiệt độ, độ ẩm, cân bằng, ổn định tốc độ động cơ</li>
+          <li>Thang máy</li>
+          <li>Smart home</li>
+          <li>Bãi xe tự động</li>
+          <li>Nông trại thông minh</li>
+          <li>SCADA: giám sát, quản lý theo thời gian thực</li>
+          <li>Robot: SCARA, tay máy 4-6 bậc, delta, dò line</li>
+          <li>Điện tử công suất: nghịch lưu 3/5/7 bậc (PD-PWM, LS-PWM)</li>
+          <li>Đấu tủ điện</li>
+          <li>Thiết kế PCB (Altium)</li>
+          <li>Hỗ trợ code PLC các dòng khác</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="section" id="projects">
+  <div class="section-inner">
+    <p class="eyebrow"><span class="dot"></span> DỰ ÁN</p>
+    <h2 class="section-title">Các mô hình tiêu biểu đã thực hiện</h2>
+
+    <div class="project-grid">
+
+      <!-- Project 1 -->
+      <article class="card" data-reveal>
+        <div class="card-frame">
+          <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+          <div class="card-media">
+            <img src="assets/project-1.jpg" alt="Mô hình phân loại sản phẩm bằng OpenMV">
+          </div>
+        </div>
+        <div class="card-body">
+          <h3>Mô hình phân loại sản phẩm bằng OpenMV</h3>
+          <p>Hệ thống tay máy kết hợp băng tải, sử dụng camera OpenMV để nhận diện màu sắc và hình dạng sản phẩm theo thời gian thực, từ đó điều khiển tay máy gắp và phân loại chính xác vào từng vị trí tương ứng.</p>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="card" data-reveal>
+        <div class="card-frame">
+          <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+          <div class="card-media">
+            <img src="assets/project-2.jpg" alt="Mô hình chiết rót đóng nắp túi đứng tự động">
+          </div>
+        </div>
+        <div class="card-body">
+          <h3>Mô hình chiết rót đóng nắp túi đứng tự động</h3>
+          <p>Dây chuyền tự động hóa quá trình chiết rót và đóng nắp cho túi đứng (stand-up pouch), sử dụng bàn xoay định vị và xy-lanh khí nén để đồng bộ các công đoạn cấp túi, chiết rót và siết nắp theo trình tự liên tục.</p>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="card" data-reveal>
+        <div class="card-frame">
+          <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+          <div class="card-media">
+            <img src="assets/project-3.jpg" alt="Thiết kế bộ biến đổi công suất một pha bảy bậc">
+          </div>
+        </div>
+        <div class="card-body">
+          <h3>Thiết kế bộ biến đổi công suất một pha bảy bậc</h3>
+          <p>Nghiên cứu và thiết kế mạch nghịch lưu đa bậc (7 bậc) cho hệ thống điện một pha, khảo sát dạng sóng điện áp đầu ra bằng dao động ký số nhằm đánh giá chất lượng và độ ổn định của bộ biến đổi.</p>
+        </div>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="card" data-reveal>
+        <div class="card-frame">
+          <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+          <div class="card-media">
+            <img src="assets/project-4.jpg" alt="Mô hình hệ thống SCARA phân loại sản phẩm theo kích thước và màu sắc">
+          </div>
+        </div>
+        <div class="card-body">
+          <h3>Mô hình hệ thống SCARA phân loại sản phẩm theo kích thước và màu sắc</h3>
+          <p>Cánh tay robot SCARA phối hợp cùng băng tải và cảm biến, nhận diện kích thước và màu sắc sản phẩm để gắp và phân loại vào đúng vị trí, mô phỏng trạm phân loại trong dây chuyền sản xuất thực tế.</p>
+        </div>
+      </article>
+
+      <!-- Project 5 -->
+      <article class="card" data-reveal>
+        <div class="card-frame">
+          <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+          <div class="card-media">
+            <img src="assets/project-5.jpg" alt="Robot giải khối Rubik 3x3 tự động">
+          </div>
+        </div>
+        <div class="card-body">
+          <h3>Robot giải Rubik 3x3</h3>
+          <p>Sử dụng 4 động cơ servo và 4 động cơ bước phối hợp nhịp nhàng để xoay và giải khối Rubik 3x3 hoàn toàn tự động, từ nhận diện trạng thái khối đến thực thi thuật toán giải.</p>
+        </div>
+      </article>
+
+      <!-- Project 6 -->
+      <article class="card" data-reveal>
+        <div class="card-frame">
+          <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+          <div class="card-media">
+            <img src="assets/project-6.jpg" alt="Hệ thống ổn định mực nước trong bồn bằng PID">
+          </div>
+        </div>
+        <div class="card-body">
+          <h3>Ổn định mực nước trong bồn</h3>
+          <p>Hệ thống điều khiển PID giữ ổn định mực nước trong bồn chứa theo giá trị đặt (setpoint), giám sát và điều khiển qua giao diện SCADA với 2 chế độ Auto/Manual, hiển thị biểu đồ xu hướng (trend) theo thời gian thực.</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== POLICY ===== -->
+<section class="section" id="policy" style="padding:60px 0 30px; text-align:center;">
+  <div class="section-inner">
+    <p class="eyebrow" style="justify-content:center;"><span class="dot"></span> CHÍNH SÁCH KHÁCH HÀNG</p>
+
+    <div class="policy-list policy-vertical">
+      <div class="policy-item">
+        <span class="policy-icon">01</span>
+        <div>
+          <p class="policy-title">Test vận hành tại chỗ</p>
+          <p>Khách kiểm tra vận hành trực tiếp trước khi bàn giao — không hỗ trợ đổi trả sau khi đã nhận hàng.</p>
+        </div>
+      </div>
+      <div class="policy-item">
+        <span class="policy-icon">02</span>
+        <div>
+          <p class="policy-title">Đồng hành tận tâm</p>
+          <p>Hỗ trợ giải thích, hướng dẫn trong suốt quá trình thực hiện và bảo hành sau bàn giao.</p>
+        </div>
+      </div>
+      <div class="policy-item">
+        <span class="policy-icon">03</span>
+        <div>
+          <p class="policy-title">Thu hồi linh hoạt</p>
+          <p>Hỗ trợ thu lại sản phẩm khi khách hàng không còn nhu cầu sử dụng.</p>
+        </div>
+      </div>
+      <div class="policy-item">
+        <span class="policy-icon">04</span>
+        <div>
+          <p class="policy-title">Ưu đãi giới thiệu</p>
+          <p>Chính sách hoa hồng cho khách hàng giới thiệu dịch vụ thành công.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section contact" id="contact">
+  <div class="section-inner">
+    <div class="contact-panel contact-panel-solo">
+      <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+      <div class="contact-left">
+        <p class="eyebrow"><span class="dot"></span> LIÊN HỆ</p>
+        <h2 class="section-title">Trao đổi về dự án của bạn</h2>
+        <p class="section-desc">Bạn muốn tìm hiểu thêm về các mô hình, hoặc có ý tưởng hợp tác? Liên hệ chúng tôi qua các kênh dưới đây.</p>
+
+        <div class="contact-links contact-links-row">
+          <a href="tel:0327311419" class="contact-link contact-link-icon-only" aria-label="Gọi Hotline 0327 311 419" title="Hotline: 0327 311 419">
+            <span class="contact-link-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.7 5.1 6.5 6.5l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.4 21 3 13.6 3 4.6c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1L6.6 10.8z"/></svg>
+            </span>
+          </a>
+
+          <a href="https://www.facebook.com/profile.php?id=61591691890352" target="_blank" rel="noopener" class="contact-link contact-link-icon-only" aria-label="X-Solution trên Facebook" title="X-Solution trên Facebook">
+            <span class="contact-link-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14C17.17 2.1 15.9 2 14.6 2 11.9 2 10 3.66 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg>
+            </span>
+          </a>
+
+          <a href="https://www.tiktok.com/@x.solution6?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener" class="contact-link contact-link-icon-only" aria-label="@x.solution6 trên TikTok" title="@x.solution6 trên TikTok">
+            <span class="contact-link-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M16.6 5.82c-.87-.96-1.35-2.1-1.35-3.32h-3.2v13.6c0 1.6-1.3 2.9-2.9 2.9-1.6 0-2.9-1.3-2.9-2.9 0-1.6 1.3-2.9 2.9-2.9.32 0 .62.05.9.14V9.98a6.1 6.1 0 0 0-.9-.07c-3.37 0-6.1 2.73-6.1 6.1S6.14 22.1 9.5 22.1s6.1-2.73 6.1-6.1V9.35a9.3 9.3 0 0 0 5.4 1.73V7.88a5.86 5.86 0 0 1-4.4-2.06z"/></svg>
+            </span>
+          </a>
+
+          <a href="https://zalo.me/0327311419" target="_blank" rel="noopener" class="contact-link contact-link-icon-only" aria-label="Zalo: 0327 311 419" title="Zalo: 0327 311 419">
+            <span class="contact-link-icon contact-link-icon-text" aria-hidden="true">Z</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="brand footer-brand">
+      <img src="assets/logo.jpg" alt="X-Solution Automation" class="brand-mark">
+      <span class="brand-text">X-SOLUTION<span class="brand-sub">AUTOMATION</span></span>
+    </div>
+    <p class="footer-copyright">© 2026 X-Solution Automation.</p>
+  </div>
+  <p class="footer-legal">Cam kết tuân thủ pháp luật và tôn trọng quyền sở hữu trí tuệ trong mọi sản phẩm, dịch vụ cung cấp.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
